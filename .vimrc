@@ -1,0 +1,19 @@
+set number
+set mouse=a
+set numberwidth=1
+set clipboard=unnamed
+syntax on
+set showcmd
+set ruler
+set cursorline
+set encoding=utf-8
+set showmatch
+set sw=2
+set relativenumber
+set termguicolors
+set laststatus=2
+set noshowmode
+
+source ~/AppData/Local/nvim/.nvim/plugins.vim
+source ~/AppData/Local/nvim/.nvim/plug-config.vim
+source ~/AppData/Local/nvim/.nvim/keymap.vim
