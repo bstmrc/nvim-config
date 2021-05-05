@@ -1,11 +1,11 @@
 # CONFIGURACIÓN INICIAL NEOVIM #
 
     📁 - ~/..
-    |_ 📂 - nvim/
-    |	|_ 📂 - .nvim
-    |	|	|_ 📄 - .vimrc
-    |	|	|_ 📄 - plugins.vim
-    |	|	|_ 📄 - plugins-config.vim
-    |	|	|_ 📄 - keymap.vim
-    |	|_ 📄 - init.vim
+     L📂 - nvim/
+     | L 📂 - .nvim
+     | |	L 📄 - .vimrc
+     | |	L 📄 - plugins.vim
+     | |	L 📄 - plugins-config.vim
+     | |	L 📄 - keymap.vim
+     | L 📄 - init.vim
     
