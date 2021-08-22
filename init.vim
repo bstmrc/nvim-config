@@ -1,3 +1,3 @@
 set runtimepath^=~/.vim runtimepath+=~/.vim/after
 let &packpath = &runtimepath
-source "directorio/archivos 
+source ~/Appdata/local/nvim/.nvim/.vimrc

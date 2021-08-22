@@ -1,0 +1,33 @@
+" Themes | Temas
+let ayucolor="dark"
+colorscheme ayu
+
+" IDE
+"" Lightline | ALE
+let g:lightline = {}
+let g:lightline.component_expand = {
+    \	'linter_checking': 'lightline#ale#checking',
+    \	'linter_infos': 'lightline#ale#infos',
+    \	'linter_warnings': 'lightline#ale#warnings',
+    \	'linter_errors': 'lightline#ale#errors',
+    \	'linter_ok': 'lightline#ale#ok',
+    \ }
+let g:lightline.component_type = {
+    \ 	'linter_checking': 'right',
+    \	'linter_infos': 'right',
+    \	'linter_warnings': 'warning',
+    \	'linter_errors': 'error',
+    \	'linter_ok': 'right',
+    \ }
+let g:lightline.active = {
+    \ 'right': [[ 'linter_cheking', 'linter_errors', 'linter_warnings', 'linter_infos', 'linter_ok' ]]
+    \ }
+"" Signify
+set updatetime=100
+" Typing | Tipeo
+"" Close tags Plug
+let g:closetag_filenames = '*.html,*.js,*.jsx,*.ts,*.tsx'
+" NERDTree
+let NERDTreeQuitOnOpen = 1 
+" CSS Color
+let g:cssColorVimDoNotMessMyUpdatetime = 1
